@@ -1,0 +1,24 @@
+import java.awt.Component;
+import javax.swing.BoxLayout;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.WindowConstants;
+
+class prueba4{
+        public static void main(String []  arg){
+
+        JFrame v = new JFrame();
+        v.getContentPane().setLayout(new BoxLayout(v.getContentPane(), BoxLayout.Y_AXIS));
+
+        JButton boton=new JButton("Boton");
+        boton.setAlignmentX(Component.CENTER_ALIGNMENT);
+        v.getContentPane().add(boton);
+
+        v.pack();
+        v.setVisible(true);
+        v.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+
+  }//main
+
+}//class  
