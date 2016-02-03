@@ -1,0 +1,16 @@
+import javax.swing.JFrame;
+public class SimplestSwing2{
+        public static void main(String []args){
+        JFrame frame=new JFrame("Revised Simplest Swing");
+       
+	 frame.setVisible(true);
+	
+	frame setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+	frame.setBounds(50,50,200);
+
+	frame.setVisible(true);
+	
+        }
+
+}
