@@ -1,0 +1,7 @@
+class HolaD{
+
+
+	public static void main(Strin aeguments[]){
+	System.out.println("hola mundo");
+	}	
+}
